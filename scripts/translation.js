@@ -85,7 +85,7 @@ var translation = {
     en: "Bachelor's degree in computer science" },
   "_PREPA_": {
     fr: "Prépa MPSI",
-    en: "Preparatory class for high scientific school" },
+    en: "Preparatory class for High scientific School" },
   "_BAC_": {
     fr: "Baccalauréat S",
     en: "High School diploma, scientific option" },
@@ -103,19 +103,37 @@ var translation = {
     en: "at home" },
   "_TUTORINGDESC_": {
     fr: "Mathématiques niveau collège et lycée",
-    en: "Mathematics, middle and high school level" },
+    en: "Mathematics, middle and High School level" },
   "_INTERNSHIP_": {
     fr: "Stage de 3" + "e".sup(),
     en: "3" + "e".sup() + " internship" },
   "_ALCATEL_": {
     fr: "Alcatel-Lucent",
     en: "Alcatel-Lucent" },
-  "_INTERNSHIPDESC_": {
-    fr: "Pour une durée d'une semaine",
-    en: "For a week" },
   "_HOBBY_": {
     fr: "Centres d'intérêt",
-    en: "Hobbies" }
+    en: "Hobbies" },
+  "_MUSIC_": {
+    fr: "Musique",
+    en: "Music" },
+  "_MUSICDESC_": {
+    fr: "Solfège (2" + "e".sup() +  " cycle) et piano au Conservatoire Gabriel Fauré (Paris 5" + "e".sup() + ")",
+    en: "Music Theory (2" + "nd".sup() +  " cycle) and piano at Gabriel Fauré Conservatory (Paris)" },
+  "_NATATION_": {
+    fr: "Natation",
+    en: "Swimming" },
+  "_TTENIS_": {
+    fr: "Tennis de table",
+    en: "Table Tennis" },
+  "_TTENISDESC_": {
+    fr: "Association sportive",
+    en: "Sport Association" },
+  "_TRAVEL_": {
+    fr: "Voyages",
+    en: "Travel" },
+  "_ARCHITECTURE_": {
+    fr: "Architecture",
+    en: "Architecture" }
 };
 
 var translator = $('body').translate({lang: "fr", t: translation});
