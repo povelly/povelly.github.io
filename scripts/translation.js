@@ -136,4 +136,4 @@ var translation = {
     en: "Architecture" }
 };
 
-var translator = $('body').translate({lang: "en", t: translation});
+var translator = $('body').translate({lang: "fr", t: translation});
