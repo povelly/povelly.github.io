@@ -51,8 +51,8 @@ var translation = {
     fr: "langue maternelle",
     en: "mother tongue" },
   "_ENLV_": {
-    fr: "niveau B1",
-    en: "B1 level" },
+    fr: "niveau B2",
+    en: "B2 level" },
   "_GELV_": {
     fr: "DSD I B1",
     en: "DSD I B1" },

@@ -17,8 +17,8 @@
     <header>
       <div class="row container">
         <div class="col-4">
-          <a href="#"><img class="flag" onclick="translator.lang('fr')" src="images/fr_flag.svg" /></a>
-          <a href="#"><img class="flag" onclick="translator.lang('en')" src="images/uk_flag.svg" /></a>
+          <a href="#"><img class="flag" onclick="translator.lang('fr')" src="images/fr_flag.svg" alt="Change language to french" /></a>
+          <a href="#"><img class="flag" onclick="translator.lang('en')" src="images/uk_flag.svg" alt="Change language to english" /></a>
         </div>
         <div class="col-8 title">
           <span class="name">Pierre-Octave <strong>Velly</strong></span>
@@ -91,15 +91,19 @@
             <li><span class="trn">_FR_</span></li>
             <li><span class="trn">_EN_</span></li>
             <li><span class="trn">_GE_</span></li>
+          <!--
             <li><span class="trn">_LA_</span></li>
             <li><span class="trn">_GR_</span></li>
+          -->
           </ul>
           <ul class="level">
             <li>• <span class="trn">_FRLV_</span></li>
             <li>• <span class="trn">_ENLV_</span></li>
             <li>• <span class="trn">_GELV_</span></li>
+          <!--
             <li>• <span class="trn">_LALV_</span></li>
             <li>• <span class="trn">_GRLV_</span></li>
+          -->
           </ul>
       </div>
       <div class="col-8 content">
@@ -109,29 +113,60 @@
           <i class="fas fa-circle fa-stack-2x icon-background"></i>
           <i class="fas fa-graduation-cap fa-stack-1x"></i>
         </span><span class="trn">_FORMATION_</span></h2>
-        <h3><strong>Université de Paris:</strong> <span class="trn">_LEG_</span>, 2020-</h3>
-        <h3><strong>Sorbonne Université:</strong> <span class="trn">_MINFO_</span>, 2019-2021</h3>
-        <em><span class="trn">_MDESC_</span></em>
-        <h3><strong>UPMC:</strong> <span class="trn">_LINFO_</span>, 2017-2019</h3>
-        <h3><strong>Lycée Fénelon:</strong> <span class="trn">_PREPA_</span>, 2016-2017</h3>
-        <h3><strong>Lycée Henri IV</strong> <span class="trn">_BAC_</span>, 2016</h3>
-        <em><span class="trn">_BACDESC_</span></em>
+        <div>
+          <h3><strong>Université de Paris:</strong> <span class="trn">_LEG_</span>, 2020-</h3>
+          <h3><strong>Sorbonne Université:</strong> <span class="trn">_MINFO_</span>, 2019-2021</h3>
+          <em><span class="trn">_MDESC_</span></em>
+          <h3><strong>UPMC:</strong> <span class="trn">_LINFO_</span>, 2017-2019</h3>
+          <h3><strong>Lycée Fénelon:</strong> <span class="trn">_PREPA_</span>, 2016-2017</h3>
+          <h3><strong>Lycée Henri IV</strong> <span class="trn">_BAC_</span>, 2016</h3>
+          <em><span class="trn">_BACDESC_</span></em>
+      </div>
         <h2><span class="fa-stack">
           <i class="fas fa-circle fa-stack-2x icon-background"></i>
           <i class="fas fa-tasks fa-stack-1x"></i>
         </span><span class="trn">_EXPERIENCE_</span></h2>
-        <h3><strong><span class="trn">_TUTORING_</span>:</strong> <span class="trn">_HOME_</span>, 2018</h3>
-        <em><span class="trn">_TUTORINGDESC_</span></em>
-        <h3><strong><span class="trn">_INTERNSHIP_</span>:</strong> <span class="trn">_ALCATEL_</span>, 2014</h3>
+        <div>
+          <h3><strong><span class="trn">_TUTORING_</span>:</strong> <span class="trn">_HOME_</span>, 2018</h3>
+          <em><span class="trn">_TUTORINGDESC_</span></em>
+          <h3><strong><span class="trn">_INTERNSHIP_</span>:</strong> <span class="trn">_ALCATEL_</span>, 2014</h3>
+        </div>
+        <h2><span class="fa-stack">
+          <i class="fas fa-circle fa-stack-2x icon-background"></i>
+          <i class="fas fa-star fa-stack-1x"></i>
+        </span><span class="trn">PROJETS</span></h2>
+        <div class="row project">
+          <div class="col-6">
+            <h3>SuggestionBox</h3>
+            <p>Réalisation en petit groupe d'une application client/serveur de suggestion.</p>
+            <p>Technologies emloyées : Spring, Angular</p>
+            <h3>Projet DAAR</h3>
+            <p>Application de vente en ligne</p>
+            <p>Technologies employées : NodeJS, VueJS</p>
+            <h3>Projet PC2R</h3>
+            <p>Application client/serveur pour trouver des coéquipiers</p>
+            <p>Technologies employées : Tomcat, React</p>
+          </div>
+          <div class="col-6">
+            <h3>MrPython</h3>
+            <p>Ajout de la prise en charge des annotations de types de Python pour proposer une vérification de type dans le cadre d'un IDE dédié à l'apprentissage</p>
+            <p>Technologies employées : Python</p>
+            <h3>APS</h3>
+            <p>Réalisation d'un langage fonctionnel à traits impératifs</p>
+            <p>Technologies emloyées : Lex, Yacc, Java</p>
+          </div>
+        </div>
         <h2><span class="fa-stack">
           <i class="fas fa-circle fa-stack-2x icon-background"></i>
           <i class="fas fa-star fa-stack-1x"></i>
         </span><span class="trn">_HOBBY_</span></h2>
-        <h3><strong><span class="trn">_MUSIC_</span></strong> <span class="trn">_MUSICDESC_</span>, 2008-2014</h3>
-        <h3><strong><span class="trn">_NATATION_</span></strong> 2007-2013</h3>
-        <h3><strong><span class="trn">_TTENIS_</span></strong> <span class="trn">_TTENISDESC_</span></h3>
-        <h3><strong><span class="trn">_TRAVEL_</span></strong></h3>
-        <h3><strong><span class="trn">_ARCHITECTURE_</span></strong></span></h3>
+        <div>
+          <h3><strong><span class="trn">_MUSIC_</span></strong> <span class="trn">_MUSICDESC_</span>, 2008-2014</h3>
+          <h3><strong><span class="trn">_NATATION_</span></strong> 2007-2013</h3>
+          <h3><strong><span class="trn">_TTENIS_</span></strong> <span class="trn">_TTENISDESC_</span></h3>
+          <h3><strong><span class="trn">_TRAVEL_</span></strong></h3>
+          <h3><strong><span class="trn">_ARCHITECTURE_</span></strong></h3>
+        </div>
       </div>
     </div>
     <footer>

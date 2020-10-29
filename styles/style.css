@@ -153,6 +153,16 @@ header {
   margin-left: 1%;
 }
 
+.project h3 {
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 3px;
+}
+.project p {
+  font-size: small;
+  margin-bottom: 2px;
+}
+
 /* FOOTER */
 footer {
   background-color: #006DA5;
