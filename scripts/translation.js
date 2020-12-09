@@ -2,9 +2,12 @@ var translation = {
   "_POSITION_": {
     fr: "Ingénieur logiciel",
     en: "Software engineer" },
-  "_SUBTITLE_": {
+  "_RESUME_": {
     fr: "Curriculum Vitæ",
     en: "Resume" },
+    "_NATIONALITY_": {
+      fr: "Français",
+      en: "French" },
   "_SKILLS_": {
     fr: "Compétences",
     en: "Skills" },
@@ -41,12 +44,6 @@ var translation = {
   "_GE_": {
     fr: "Allemand",
     en: "German" },
-  "_LA_": {
-    fr: "Latin",
-    en: "Latin" },
-  "_GR_": {
-    fr: "Grec",
-    en: "Greek" },
   "_FRLV_": {
     fr: "langue maternelle",
     en: "mother tongue" },
@@ -56,18 +53,12 @@ var translation = {
   "_GELV_": {
     fr: "DSD I B1",
     en: "DSD I B1" },
-  "_LALV_": {
-    fr: "6 ans",
-    en: "6 years" },
-  "_GRLV_": {
-    fr: "2 ans",
-    en: "2 years" },
   "_ABOUT_": {
     fr: "À mon sujet",
     en: "About me" },
   "_BIO_": {
-    fr: "Étudiant en deuxième année de master informatique motivé et perfectionniste, à 21 ans je suis à la recherche d'un " + "stage".bold() + " de fin d'études d'une durée de " + "6 mois".bold() + " dans le domaine du " + "logiciel".bold() + ".",
-    en: "21 years old french student in computer science Master degree, I am currently looking for a " + "6-month".bold() + " end of studies " + "software internship".bold() + "." },
+    fr: "Étudiant en deuxième année de master informatique motivé et perfectionniste, à 21 ans je suis à la recherche d'un " + "stage".bold() + " de fin d'études d'une durée de " + "6 mois".bold() + " à compter de février 2021 dans le domaine du " + "logiciel".bold() + ".",
+    en: "21 years old french student in computer science Master degree, I am currently looking for a " + "6-month".bold() + " end of studies " + "software internship".bold() + " from februar 2021." },
   "_FORMATION_": {
     fr: "Formation",
     en: "Formation" },
@@ -78,8 +69,8 @@ var translation = {
     fr: "Master Informatique",
     en: "Master's degree in Computer Science" },
   "_MDESC_": {
-    fr: "Parcours Science et Technologie du Logiciel (STL)",
-    en: "Software engineering" },
+    fr: "Parcours Science et Technologie du Logiciel (STL) : algorithmique, architecture logicielle, developpement, gestion de projet",
+    en: "Software engineering : algorithmic, software architecture, software programming, project management" },
   "_LINFO_": {
     fr: "Licence Informatique",
     en: "Bachelor's degree in computer science" },
@@ -99,17 +90,11 @@ var translation = {
     fr: "Soutien scolaire",
     en: "Tutoring" },
   "_HOME_": {
-    fr: "à domicile",
-    en: "at home" },
+    fr: "cours particulier, 10h/semaine",
+    en: "at home, 10 hours a weak" },
   "_TUTORINGDESC_": {
     fr: "Mathématiques niveau collège et lycée",
     en: "Mathematics, middle and High School level" },
-  "_INTERNSHIP_": {
-    fr: "Stage de 3" + "e".sup(),
-    en: "3" + "e".sup() + " internship" },
-  "_ALCATEL_": {
-    fr: "Alcatel-Lucent",
-    en: "Alcatel-Lucent" },
   "_HOBBY_": {
     fr: "Centres d'intérêt",
     en: "Hobbies" },
@@ -117,8 +102,8 @@ var translation = {
     fr: "Musique",
     en: "Music" },
   "_MUSICDESC_": {
-    fr: "Solfège (2" + "e".sup() +  " cycle) et piano au Conservatoire Gabriel Fauré (Paris 5" + "e".sup() + ")",
-    en: "Music Theory (2" + "nd".sup() +  " cycle) and piano at Gabriel Fauré Conservatory (Paris)" },
+    fr: "Solfège (2" + "e".sup() +  " cycle) et piano",
+    en: "Music Theory (2" + "nd".sup() +  " cycle) and piano" },
   "_NATATION_": {
     fr: "Natation",
     en: "Swimming" },
