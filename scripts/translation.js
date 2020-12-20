@@ -11,6 +11,18 @@ var translation = {
   "_SKILLS_": {
     fr: "Compétences",
     en: "Skills" },
+  "_SOFTWARE_ARCHITECTURE_": {
+    fr: "Architecture logicielle",
+    en: "Software architecture" },
+  "_UML_": {
+    fr: "Modélisation avec UML",
+    en: "UML Modeling" },
+  "_AGILE_": {
+    fr: "Méthodologie agile",
+    en: "Agile methodology" },
+  "_JUNIT_": {
+    fr: "Tests unitaires (JUnit)",
+    en: "Unit tests (JUnit)" },
   "_PROGRAMMING_": {
     fr: "Langages et technologies",
     en: "Programming and technologies" },
@@ -91,10 +103,37 @@ var translation = {
     en: "Tutoring" },
   "_HOME_": {
     fr: "cours particulier, 10h/semaine",
-    en: "at home, 10 hours a weak" },
+    en: "at home, 10 hours a week" },
   "_TUTORINGDESC_": {
     fr: "Mathématiques niveau collège et lycée",
     en: "Mathematics, middle and High School level" },
+  "_PROJECT_": {
+    fr: "Projets",
+    en: "Projects" },
+  "_TECHNOS_": {
+    fr: "Technologies employées",
+    en: "Technologies used" },
+  "_SB_DESC_": {
+    fr: "Réalisation en petit groupe d'une application client/serveur de suggestion",
+    en: "Realization of a client/server application to make suggestions" },
+  "_DAAR2_DESC_": {
+    fr: "Réalisation d'un système d'article simple stockés dans une blockchain",
+    en: "Realization of a simple article system stored in a blockchain" },
+  "_DAAR3_DESC_": {
+    fr: "Indexation de CV et recherche selon certains critères",
+    en: "CV indexing and search + " },
+  "_DAAR4_DESC_": {
+    fr: "Application de recherche dans une bibliothèque et vente de livres en ligne",
+    en: "Book search in a library" },
+  "_MRPYTHON_DESC_": {
+    fr: "Ajout de la prise en charge des annotations de types de Python pour proposer une vérification de type dans le cadre d'un IDE dédié à l'apprentissage",
+    en: "Adding support for Python type annotations to provide type checking as part of an IDE dedicated to learning" },
+  "_APS_DESC_": {
+    fr: "Réalisation d'un langage fonctionnel à traits impératifs",
+    en: "Functionnal programming language with some imperative traits" },
+  "_PC2R_DESC_": {
+    fr: "Application client/serveur pour trouver des coéquipiers",
+    en: "Client/Server application to find teammates" },
   "_HOBBY_": {
     fr: "Centres d'intérêt",
     en: "Hobbies" },
