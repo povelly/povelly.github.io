@@ -14,6 +14,9 @@ var translation = {
   "_SOFTWARE_ARCHITECTURE_": {
     fr: "Architecture logicielle",
     en: "Software architecture" },
+  "_ALGORITHMICS_": {
+    fr: "Algorithmique",
+    en: "Algorithmics" },
   "_UML_": {
     fr: "Modélisation avec UML",
     en: "UML Modeling" },
@@ -69,8 +72,8 @@ var translation = {
     fr: "À mon sujet",
     en: "About me" },
   "_BIO_": {
-    fr: "Étudiant en deuxième année de master informatique motivé et perfectionniste, à 21 ans je suis à la recherche d'un " + "stage".bold() + " de fin d'études d'une durée de " + "6 mois".bold() + " à compter de février 2021 dans le domaine du " + "logiciel".bold() + ".",
-    en: "21 years old french student in computer science Master degree, I am currently looking for a " + "6-month".bold() + " end of studies " + "software internship".bold() + " from februar 2021." },
+    fr: "Étudiant en deuxième année de master informatique motivé et perfectionniste, à 21 ans je suis à la recherche d'un " + "stage".bold() + " de fin d'études d'une durée de " + "6 mois".bold() + " à compter de février 2021 dans le domaine du " + "logiciel".bold() + ", en particulier pour du développement Java ou bien pour travailler avec des frameworks JavaScript.",
+    en: "21 years old french student in computer science Master degree, I am currently looking for a " + "6-month".bold() + " end of studies " + "software internship".bold() + " from februar 2021, in particular about Java development or JavaScript frameworks." },
   "_FORMATION_": {
     fr: "Formation",
     en: "Formation" },
