@@ -18,8 +18,8 @@ var translation = {
     fr: "Bases de données (SQL, MongoDB)",
     en: "Database (SQL, MongoDB)" },
   "_notions_prog": {
-    fr: "Notions de Go, C, OCaml, Prolog, LaTeX",
-    en: "Notions of Go, C, OCaml, Prolog, LaTeX" },
+    fr: "Notions de Scala, Go, C, OCaml, Prolog",
+    en: "Notions of Scala, Go, C, OCaml, Prolog" },
   "_OS_": {
     fr: "Systèmes d'exploitation",
     en: "Operating systems" },

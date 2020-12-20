@@ -86,6 +86,9 @@ header {
 .sidebar ul {
   padding-left: 5%;
 }
+.sidebar ul.main_skills {
+  font-weight: bold;
+}
 .sidebar li {
   padding-left: 0px;
   list-style: none;
